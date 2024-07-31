@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TektonChallenge\Tekton.Api.csproj" />
+    <ProjectReference Include="..\Tekton.Api\Tekton.Api.csproj" />
   </ItemGroup>
 
   <ItemGroup>

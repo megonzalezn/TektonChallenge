@@ -1,10 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using Tekton.Model;
 using Tekton.Services.Interface;
 using Tekton.Services.Interfaces;
-
-using TektonChallenge.Controllers;
+using Tekton.Api.Controllers;
+using Tekton.Model;
 
 namespace TektonTest.Controller
 {

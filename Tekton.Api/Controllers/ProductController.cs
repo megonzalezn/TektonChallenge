@@ -4,7 +4,7 @@ using Tekton.Model;
 using Tekton.Services.Interface;
 using Tekton.Services.Interfaces;
 
-namespace TektonChallenge.Controllers
+namespace Tekton.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
