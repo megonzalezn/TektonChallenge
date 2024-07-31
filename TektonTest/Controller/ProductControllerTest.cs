@@ -1,9 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using Moq;
-using Newtonsoft.Json;
 using Tekton.Model;
-using Tekton.Repository.Interfaces;
 using Tekton.Services.Interface;
 using Tekton.Services.Interfaces;
 
@@ -18,9 +15,10 @@ namespace TektonTest.Controller
         public ProductControllerTest() 
         { 
             productService = new Mock<IProductService>();
+            logService = new Mock<ILogService>();
         }  
         [Fact]
-        public async void Should_Return_All_Products()
+        public void Should_Return_All_Products()
         {
             //Arrange
             List<ProductResponseDTO> products = GetProducts();

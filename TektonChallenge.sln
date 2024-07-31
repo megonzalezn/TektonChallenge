@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Api", "TektonChallen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TektonTest", "TektonTest\TektonTest.csproj", "{4FA75DD7-EB45-4E8F-B314-883426CD65B5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Model", "Tekton.Domain\Tekton.Model.csproj", "{A40B387C-F643-4EF5-8458-A79B3BB9863C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Model", "Tekton.Model\Tekton.Model.csproj", "{A40B387C-F643-4EF5-8458-A79B3BB9863C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Repository", "Tekton.Repository\Tekton.Repository.csproj", "{73E9FFB8-2831-4F5F-8282-EBAE0BE02806}"
 EndProject

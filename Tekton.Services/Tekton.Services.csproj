@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tekton.Domain\Tekton.Model.csproj" />
+    <ProjectReference Include="..\Tekton.Model\Tekton.Model.csproj" />
     <ProjectReference Include="..\Tekton.Repository\Tekton.Repository.csproj" />
   </ItemGroup>
 

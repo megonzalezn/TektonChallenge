@@ -6,6 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
       <PrivateAssets>all</PrivateAssets>
@@ -16,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tekton.Domain\Tekton.Model.csproj" />
+    <ProjectReference Include="..\Tekton.Model\Tekton.Model.csproj" />
     <ProjectReference Include="..\Tekton.Services\Tekton.Services.csproj" />
   </ItemGroup>
 
