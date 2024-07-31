@@ -21,8 +21,8 @@ namespace Tekton.Services
             this.statusList = cache.GetOrAdd("status", () =>
             {
                 return new Dictionary<int, string>() {
-                    {0, "Inactivo"},
-                    {1, "Activo"}
+                    {0, "Inactive"},
+                    {1, "Active"}
                 };
             }, TimeSpan.FromMinutes(5));
 
